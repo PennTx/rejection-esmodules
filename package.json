@@ -1,0 +1,36 @@
+{
+  "name": "rejection-esmodules",
+  "version": "1.0.0",
+  "description": "The rejection app, only using ES6 modules.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . && echo 'Lint complete.'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JAP",
+  "license": "MIT",
+  "devDependencies": {
+    "@pika/web": "^0.4.2",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.17.1",
+    "serve": "^11.0.1",
+    "tape": "^4.10.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2"
+  },
+  "@pika/web": {
+    "webDependencies": [
+      "redux",
+      "redux-saga"
+    ]
+  }
+}
